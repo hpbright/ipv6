@@ -1,3 +1,4 @@
+#!/bin/sh
 random() {
   tr </dev/urandom -dc A-Za-z0-9 | head -c5
   echo
